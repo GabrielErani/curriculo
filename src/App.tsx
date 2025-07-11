@@ -50,9 +50,8 @@ function App() {
             <section className="mb-4">
               <h2 className="text-lg font-semibold text-blue-800 border-b border-gray-300 pb-1 mb-2">
                 RESUMO SOBRE MIM
-              </h2>
-              <p className="text-sm leading-tight">
-                Gabriel, 19 anos, cursando o terceiro ano de Sistemas de Informação na Faculdade Barretos, busco minha primeira oportunidade de estágio na área de Tecnologia. Minha paixão por tecnologia vem desde a infância. Atualmente, trabalho com desenvolvimento web, com maior proficiência em front-end, mas direcionando meus estudos para o back-end. Almejo um estágio para expandir meus conhecimentos práticos e contribuir em um ambiente profissional.
+              </h2>              <p className="text-sm leading-tight">
+                Gabriel, 19 anos, cursando o terceiro ano de Sistemas de Informação na Faculdade Barretos, busco minha primeira oportunidade de estágio na área de Tecnologia. Minha paixão por tecnologia vem desde a infância. Atualmente, trabalho com desenvolvimento web com foco em front-end, buscando sempre criar interfaces modernas, responsivas e com boa experiência do usuário. Almejo um estágio para expandir meus conhecimentos práticos e contribuir em um ambiente profissional.
               </p>
             </section>
 
@@ -115,27 +114,27 @@ function App() {
                 </li>
               </ul>
             </section>
-                        {/* Idiomas */}
-                        <section className="mb-4">
+            {/* Idiomas */}
+            <section className="mb-4">
               <h2 className="text-lg font-semibold text-blue-800 border-b border-gray-300">
-              IDIOMAS
+                IDIOMAS
               </h2>
               <ul className="text-sm space-y-0.5">
-              <li>
-                <span className="font-semibold">Português:</span> Nativo
-              </li>
-              <li>
-                <span className="font-semibold">Inglês:</span>
-                <ul className="pl-4 space-y-0.5 mt-1">
-                <li>• Compreensão escrita: <strong> Intermediário (B1)</strong></li>
-                <li>• Compreensão auditiva: <strong> Básico (A2)</strong></li>
-                <li>• Expressão oral: <strong> Iniciante (A1)</strong></li>
-                </ul>
-              </li>
+                <li>
+                  <span className="font-semibold">Português:</span> Nativo
+                </li>
+                <li>
+                  <span className="font-semibold">Inglês:</span>
+                  <ul className="pl-4 space-y-0.5 mt-1">
+                    <li>• Compreensão escrita: <strong> Intermediário (B1)</strong></li>
+                    <li>• Compreensão auditiva: <strong> Básico (A2)</strong></li>
+                    <li>• Expressão oral: <strong> Iniciante (A1)</strong></li>
+                  </ul>
+                </li>
               </ul>
             </section>
           </div>
-          
+
 
           {/* Coluna Lateral */}
           <div className="md:w-1/3">
@@ -157,8 +156,7 @@ function App() {
                   <li>• Shadcn/ui</li>
                   <li>• Axios</li>
                   <li>• Vite</li>
-                  <li>• Vue</li>
-                </ul>
+                  <li>• Vue</li>                </ul>
               </div>
 
               <div className="mb-2">
@@ -180,24 +178,8 @@ function App() {
                 <h3 className="text-sm font-semibold text-blue-600 mb-0">
                   Ferramentas
                 </h3>
-                <ul className="text-sm pl-2 space-y-0.5">
-                  <li>• Git e GitHub</li>
+                <ul className="text-sm pl-2 space-y-0.5">                  <li>• Git e GitHub</li>
                   <li>• VS Code</li>
-                  <li>• IA</li>
-                </ul>
-              </div>
-              <div className="mb-2">
-                <h3 className="text-sm font-semibold text-blue-600 mb-0">
-                  Inteligência Artificial
-                </h3>
-                <ul className="text-sm pl-2 space-y-0.5">
-                  <li>• ChatGPT</li>
-                  <li>• Claude</li>
-                  <li>• v0.dev</li>
-                  <li>• Bolt</li>
-                  <li>• Gemini</li>
-                  <li>• DeepSeek</li>
-                  <li>• Grok</li>
                 </ul>
               </div>
             </section>
